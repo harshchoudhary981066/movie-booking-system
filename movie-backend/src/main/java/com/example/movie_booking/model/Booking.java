@@ -1,4 +1,4 @@
-package model;
+package com.example.movie_booking.model;
 
 import lombok.*;
 
