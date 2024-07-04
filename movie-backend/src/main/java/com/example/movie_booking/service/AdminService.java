@@ -1,5 +1,9 @@
-package service;
+package com.example.movie_booking.service;
 
+import com.example.movie_booking.model.Movie;
+import com.example.movie_booking.model.Screen;
+import com.example.movie_booking.model.Show;
+import com.example.movie_booking.model.Theater;
 import model.*;
 
 public interface AdminService {

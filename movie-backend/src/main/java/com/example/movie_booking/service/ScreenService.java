@@ -1,7 +1,6 @@
-package service;
+package com.example.movie_booking.service;
 
-import model.Screen;
-import model.Show;
+import com.example.movie_booking.model.Show;
 
 public interface ScreenService {
     Show searchShow(String showName);

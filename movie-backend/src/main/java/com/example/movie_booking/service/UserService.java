@@ -1,6 +1,6 @@
-package service;
+package com.example.movie_booking.service;
 
-import model.User;
+import com.example.movie_booking.model.User;
 
 public interface UserService {
     User registerNewUser(User user);

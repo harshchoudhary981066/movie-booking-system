@@ -1,6 +1,6 @@
-package service;
+package com.example.movie_booking.service;
 
-import model.Ticket;
+import com.example.movie_booking.model.Ticket;
 
 public interface TicketService {
     Ticket generateTicket();

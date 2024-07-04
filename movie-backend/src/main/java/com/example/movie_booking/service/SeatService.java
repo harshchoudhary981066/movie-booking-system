@@ -1,6 +1,6 @@
-package service;
+package com.example.movie_booking.service;
 
-import model.Seat;
+import com.example.movie_booking.model.Seat;
 
 public interface SeatService {
     void blockSeat(Seat seat);
