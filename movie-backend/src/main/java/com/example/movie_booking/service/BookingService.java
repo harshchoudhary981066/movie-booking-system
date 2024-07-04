@@ -1,7 +1,6 @@
-package service;
+package com.example.movie_booking.service;
 
-import model.Booking;
-import model.Seat;
+import com.example.movie_booking.model.Seat;
 
 public interface BookingService {
     Seat[] chooseSeats();
