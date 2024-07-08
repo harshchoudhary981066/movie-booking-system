@@ -4,7 +4,7 @@ import com.example.movie_booking.model.Movie;
 import com.example.movie_booking.model.Screen;
 import com.example.movie_booking.model.Show;
 import com.example.movie_booking.model.Theater;
-import model.*;
+import com.example.movie_booking.model.*;
 
 public interface AdminService {
     Theater addTheater(Theater theater);
