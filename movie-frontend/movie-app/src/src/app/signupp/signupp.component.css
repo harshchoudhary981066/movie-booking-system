@@ -1,0 +1,24 @@
+body{
+    font-family: sans-serif;
+    background-color: aquamarine;
+}
+.row{
+    margin-top: auto;
+    margin-bottom:auto;
+    margin:auto;
+    text-align: right;
+    margin-left:9%;
+}
+.image img{
+    height:560 px;
+    background-color: aqua;
+    /* background-image: image('C:\Users\pmitt\OneDrive\Documents\movies.jpg'); */
+}
+@media screen and (max-width:800px){
+    .image{
+        display:ruby;
+    }
+}
+.background{
+
+}

@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blueviolet;
+    margin: 10;
+    padding: 01;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color:aqua;
+}
+
+/* Login page styles */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color:aquamarine;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px blue(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input[type=text], .login-form input[type=password] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 255, 255);
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.login-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 134px 40px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: crimson;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Booking page styles */
+.booking-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.booking-container {
+    background-color: blue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.booking-container select, .booking-container button {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.booking-container button {
+    background-color: #00fe3b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.booking-container button:hover {
+    background-color: #218838;
+}
+
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.button{
+    margin-left:9px;
+    margin-right:8px;
+    border:none;
+    width:120px;
+    color:aquamarine;
+    height:70px;
+    background-color: blueviolet;
+    background-blend-mode: multiply;
+    backface-visibility: visible;
+    background-color: cyan;
+    backdrop-filter: 1px;
+    background-blend-mode: lighten;
+    font-weight: bolder;
+    font-size: medium;
+    font-stretch: expanded;
+
+}
+::-webkit-scrollbar{
+    width: 20px;
+    background-color: deepskyblue;
+    background: transparent;
+}

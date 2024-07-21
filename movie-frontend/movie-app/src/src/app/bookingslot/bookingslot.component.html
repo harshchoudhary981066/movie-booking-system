@@ -1,0 +1,17 @@
+<body ng-controller="BookingController as bookingCtrl">
+    <h2>Welcome, {{ bookingCtrl.username }}!</h2>
+    <h3>Book A Movie Slot</h3>
+    <div>
+        <label>Select a Movie:</label>
+        <select ng-model="bookingCtrl.selectedMovie" ng-options="movie.name for movie in bookingCtrl.movies">
+            <option value="">-- Select a Movie --</option>
+        </select>
+    </div>
+    <div>
+        <label>Select a Time Slot:</label>
+        <select ng-model="bookingCtrl.selectedSlot" ng-options="slot.time for slot in bookingCtrl.timeSlots">
+            <option value="">-- Select Time Slot --</option>
+        </select>
+    </div>
+    <button ng-click="bookingCtrl.bookSlot()">Book Slot</button>
+</body>
