@@ -8,15 +8,28 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomemainComponent } from "./homemain/homemain.component";
 import { BookingslotComponent } from "./bookingslot/bookingslot.component";
 import { BookingsComponent } from "./bookings/bookings.component";
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 
+
+interface SidenavComponent{
+  screenWidth:number;
+  collapsed:boolean;
+}
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, LoginComponent, HeaderComponent, AdminLoginComponent, SignupComponent, DashboardComponent, HomemainComponent, BookingslotComponent, BookingsComponent],
+  imports: [RouterOutlet, LoginComponent, HeaderComponent, AdminLoginComponent, SignupComponent, DashboardComponent, HomemainComponent, BookingslotComponent, BookingsComponent, SidenavComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'Movie-Login-System';
+  isSideNavCollapsed=false;
+  screeenWidth=0;
+  onToggleSideNov(data:SidenavComponent):void{
+    this.screeenWidth=data.screenWidth;
+    this.isSideNavCollapsed=data.collapsed;
+
+  }
 }

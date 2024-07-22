@@ -6,6 +6,7 @@ import { BookingslotComponent } from './bookingslot/bookingslot.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomemainComponent } from './homemain/homemain.component';
 import { HeaderComponent } from './header/header.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 export const routes: Routes = [
     {
@@ -30,5 +31,8 @@ export const routes: Routes = [
     {
         path:'dashboard',component:DashboardComponent,
     },
+    {
+        path:'sidenav',component:SidenavComponent
+    }
 
 ];
